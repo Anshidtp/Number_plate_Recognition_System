@@ -1,7 +1,7 @@
 #Import All the Required Libraries
 import json
 import cv2
-from ultralytics import YOLOv10
+from ultralytics import YOLO
 import numpy as np
 import math
 import re
@@ -12,9 +12,9 @@ from paddleocr import PaddleOCR
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 #Create a Video Capture Object
-cap = cv2.VideoCapture("data/carLicence1.mp4")
+cap = cv2.VideoCapture("Sample_Data\carLicence4.mp4")
 #Initialize the YOLOv10 Model
-model = YOLOv10("weights/best.pt")
+model = YOLO("weights/best.pt")
 #Initialize the frame count
 count = 0
 #Class Names
