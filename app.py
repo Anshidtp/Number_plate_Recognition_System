@@ -12,7 +12,7 @@ from paddleocr import PaddleOCR
 
 
 #Create a Video Capture Object
-cap = cv2.VideoCapture("Sample_Data/numberplates.mp4")
+cap = cv2.VideoCapture("Sample_Data/carLicence4.mp4")
 #Initialize the YOLOv10 Model
 model = YOLO("weights/best.pt")
 #Initialize the frame count
