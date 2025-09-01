@@ -1,6 +1,6 @@
 # 🚗 Vehicle Number Plate Recognition System
 
-![Demo](demo.gif)
+![Demo](https://github.com/Anshidtp/Number_plate_Recognition_System/blob/main/Research/Detect.gif)
 
 ## 📌 Project Overview
 This project implements a **Vehicle number plate detection and recognition system** using:
